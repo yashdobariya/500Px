@@ -86,6 +86,9 @@
   .header-menu ul i:nth-child(4) {
     display: none;
   }
+  .download {
+    width: 25%;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 753px) {
@@ -211,5 +214,102 @@
   }
   .card h1 {
     font-size: 25px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1030px) {
+  .licensing {
+    display: none;
+  }
+  .dow-img-sec {
+    position: relative;
+  }
+  .dow-img-sec img {
+    position: absolute;
+  }
+  .google-play-img {
+    top: 60px;
+  }
+  .company {
+    width: 20%;
+  }
+  .community {
+    width: 20%;
+  }
+  .social {
+    width: 20%;
+  }
+  .download {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1030px) and (max-width: 1230px) {
+  .dow-img-sec {
+    position: relative;
+  }
+  .dow-img-sec img {
+    position: absolute;
+  }
+  .google-play-img {
+    top: 60px;
+  }
+  .company {
+    width: 25%;
+  }
+  .community {
+    width: 30%;
+  }
+  .licensing {
+    width: 45%;
+  }
+  .social {
+    width: 30%;
+  }
+  .download {
+    width: 70%;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1029px) {
+  .company {
+    width: 40%;
+  }
+  .community {
+    width: 60%;
+  }
+  .social {
+    width: 40%;
+  }
+  .download {
+    width: 60%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 780px) {
+  .footer-sec-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .company {
+    width: 50%;
+  }
+  .community {
+    width: 50%;
+  }
+  .social {
+    width: 50%;
+  }
+  .download {
+    width: 50%;
+  }
+  .footer-sec-for-mobile {
+    width: 100%;
+  }
+  .copy-right-section h1 {
+    font-size: 20px;
+  }
+  .copy-right img {
+    margin-top: 5px;
   }
 }

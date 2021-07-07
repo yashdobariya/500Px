@@ -420,16 +420,26 @@ body {
   color: white;
   border-radius: 30px;
   font-size: 16px;
-  border: 5px solid white;
+  border: 5px solid rgb(223, 219, 219);
   margin-top: 20px;
   font-weight: 600;
 }
 
 .footer {
   color: rgba(141, 139, 139, 0.932);
-  padding: 50px;
+  padding: 30px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.footer-sec-for-mobile {
+  display: flex;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
 .footer h1 {
   font-size: 25px;
 }
@@ -456,22 +466,28 @@ body {
   flex-wrap: wrap;
   width: 100%;
   padding-bottom: 30px;
+  border-bottom: 2px solid rgba(231, 224, 224, 0.932);
 }
 
 .company {
-  width: 12%;
+  width: 25%;
 }
 .community {
-  width: 14%;
+  width: 35%;
 }
 .licensing {
-  width: 22%;
+  width: 40%;
 }
 .social {
-  width: 12%;
+  width: 20%;
 }
 .download {
-  width: 40%;
+  width: 80%;
+}
+
+.social a:hover {
+  color: blue;
+  cursor: pointer;
 }
 
 .footer-sec-two {
@@ -495,29 +511,49 @@ body {
 
 .dow-img-sec {
   display: flex;
-  /* margin-top: 0px;  */
+  margin-top: -40px;
 }
 
 .dow-img-sec img {
   width: 150px;
   height: 150px;
-  padding: 10px;
-}
-
-.copy-right-sec {
-  display: flex;
   margin: 10px;
 }
-.copy-right-sec img {
+
+.copy-right-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px 30px 30px;
+}
+.copy-right {
+  display: flex;
+}
+
+.copy-right-section h1 {
+  font-size: 30px;
+}
+.copy-right img {
   width: 16px;
   height: 16px;
-  margin: 6px;
+  margin: 10px;
 }
 
 .footer-privacy-sec {
   display: flex;
 }
 
-.footer-term-sec ul li {
-  padding: 0px 10px;
+.footer-term-sec ul {
+  list-style: none;
+}
+
+.footer-term-sec ul li a {
+  text-decoration: none;
+  color: rgba(141, 139, 139, 0.932);
+  font-size: 18px;
+  padding: 10px;
+}
+
+.footer-term-sec ul li a:hover {
+  color: blue;
+  cursor: pointer;
 }

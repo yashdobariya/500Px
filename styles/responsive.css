@@ -156,6 +156,9 @@
     padding: 10px;
     margin-top: 20px;
   }
+  .copy-right-section {
+    padding: 0px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 770px) {
@@ -311,5 +314,44 @@
   }
   .copy-right img {
     margin-top: 5px;
+  }
+
+  .sell-photo-sec {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .sell-photo-contant {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .sell-photos {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .photo-2 {
+    top: -40px;
+    right: 0px;
+  }
+
+  .community-sec {
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .community-contant {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .community-photos {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .community-photo-2 {
+    top: -40px;
+    right: 0px;
   }
 }

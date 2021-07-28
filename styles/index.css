@@ -33,6 +33,7 @@ body {
   width: 140px;
   height: auto;
   padding: 0px 20px 0px 50px;
+  opacity: 0.9;
 }
 
 .header-menu ul {
@@ -42,8 +43,15 @@ body {
 }
 
 .header-menu ul li {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.new {
+  padding: 2px 4px;
+  color: white;
+  background-color: green;
+  font-size: 12px;
 }
 
 .header-menu ul li a {
@@ -62,18 +70,19 @@ body {
 }
 
 .header-btn {
-  padding: 20px 50px 20px 20px;
+  padding: 16px 30px 16px 16px;
 }
 
 .serch-icon {
   position: absolute;
   z-index: 1;
-  top: 30px;
+  top: 26px;
   font-size: 20px;
   margin-left: 10px;
 }
 
 .header-btn input {
+  width: 45%;
   padding: 10px 0px 10px 40px;
   border-radius: 30px;
   background-color: whitesmoke;
@@ -105,25 +114,27 @@ body {
 }
 
 .contant {
-  width: 65%;
+  width: 64%;
   padding: 150px 70px;
 }
 
 .contant h1 {
   font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
 }
 
 .contant p {
-  font-size: 20px;
-  margin-top: 30px;
+  font-size: 15px;
+  margin-top: 18px;
 }
 
 .contant button {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 15px 20px;
   border-radius: 50px;
   border: none;
-  background-color: rgb(128, 128, 245);
+  background-color: rgb(8, 112, 209);
   color: white;
   font-size: 15px;
   font-weight: 600;
@@ -548,7 +559,7 @@ body {
 .footer-term-sec ul li a {
   text-decoration: none;
   color: rgba(141, 139, 139, 0.932);
-  font-size: 18px;
+  font-size: 15px;
   padding: 10px;
 }
 

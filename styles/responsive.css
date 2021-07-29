@@ -1,89 +1,89 @@
 @media (min-width: 1200px) and (max-width: 1247px) {
-  .header-menu ul li:nth-child(9) {
+  .header-menu ul li:nth-child(6) {
     display: none;
   }
 }
 
 @media (min-width: 1110px) and (max-width: 1200px) {
-  .header-menu ul li:nth-child(9) {
+  .header-menu ul li:nth-child(6) {
     display: none;
   }
-  .header-menu ul li:nth-child(8) {
+  .header-menu ul li:nth-child(5) {
     display: none;
   }
 }
 
 @media (min-width: 1010px) and (max-width: 1113px) {
-  .header-menu ul li:nth-child(9) {
+  .header-menu ul li:nth-child(6) {
     display: none;
   }
-  .header-menu ul li:nth-child(8) {
+  .header-menu ul li:nth-child(5) {
     display: none;
   }
-  .header-menu ul li:nth-child(7) {
+  .header-menu ul li:nth-child(4) {
     display: none;
   }
 }
 
 @media (min-width: 910px) and (max-width: 1010px) {
-  .header-menu ul li:nth-child(9) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(8) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(7) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(6) {
-    display: none;
-  }
-}
-
-@media (min-width: 810px) and (max-width: 990px) {
-  .header-menu ul li:nth-child(9) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(8) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(7) {
-    display: none;
-  }
   .header-menu ul li:nth-child(6) {
     display: none;
   }
   .header-menu ul li:nth-child(5) {
     display: none;
   }
-  .header-menu ul i:nth-child(6) {
-    display: none;
-  }
-}
-
-@media (min-width: 753px) and (max-width: 890px) {
-  .header-menu ul li:nth-child(9) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(8) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(7) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(6) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(5) {
-    display: none;
-  }
-  .header-menu ul i:nth-child(6) {
+  .header-menu ul li:nth-child(4) {
     display: none;
   }
   .header-menu ul li:nth-child(3) {
     display: none;
   }
-  .header-menu ul i:nth-child(4) {
+}
+
+@media (min-width: 810px) and (max-width: 990px) {
+  .header-menu ul li:nth-child(6) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(5) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(4) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(3) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(3) {
+    display: none;
+  }
+  .header-menu ul li span:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (min-width: 753px) and (max-width: 890px) {
+  .header-menu ul li:nth-child(6) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(5) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(4) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(3) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(3) {
+    display: none;
+  }
+  .header-menu ul li span:nth-child(6) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(1) {
+    display: none;
+  }
+  .header-menu ul li span:nth-child(2) {
     display: none;
   }
   .download {
@@ -92,34 +92,34 @@
 }
 
 @media (min-width: 320px) and (max-width: 753px) {
-  .header-menu ul li:nth-child(9) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(8) {
-    display: none;
-  }
-  .header-menu ul li:nth-child(7) {
-    display: none;
-  }
   .header-menu ul li:nth-child(6) {
     display: none;
   }
   .header-menu ul li:nth-child(5) {
     display: none;
   }
-  .header-menu ul i:nth-child(6) {
+  .header-menu ul li:nth-child(4) {
     display: none;
   }
   .header-menu ul li:nth-child(3) {
     display: none;
   }
-  .header-menu ul i:nth-child(4) {
+  .header-menu ul li:nth-child(3) {
+    display: none;
+  }
+  .header-menu ul li span:nth-child(3) {
+    display: none;
+  }
+  .header-menu ul li:nth-child(2) {
+    display: none;
+  }
+  .header-menu ul li span:nth-child(2) {
     display: none;
   }
   .header-menu ul li:nth-child(1) {
     display: none;
   }
-  .header-menu ul i:nth-child(2) {
+  .header-menu ul li span:nth-child(1) {
     display: none;
   }
 }
@@ -141,6 +141,12 @@
   .card h1 {
     font-size: 20px;
   }
+  .sub-title {
+    right: 20px;
+  }
+  .footer {
+    padding: 30px 40px;
+  }
 }
 
 @media (min-width: 310px) and (max-width: 390px) {
@@ -157,7 +163,7 @@
     margin-top: 20px;
   }
   .copy-right-section {
-    padding: 0px;
+    padding: 0px 20px;
   }
 }
 
@@ -204,6 +210,12 @@
   }
   .collection-section p {
     font-size: 15px;
+  }
+  .photography-contant {
+    padding: 20px;
+  }
+  .photography-contant p {
+    text-align: center;
   }
 }
 

@@ -46,6 +46,9 @@ body {
   font-size: 16px;
   padding: 12px;
 }
+.header-menu ul span {
+  margin-left: 5px;
+}
 
 .new {
   padding: 2px 4px;
@@ -98,10 +101,11 @@ body {
   font-size: 16px;
   font-weight: 600;
   background-color: white;
+  border: 2px solid black;
 }
 
 .h-btn {
-  border: none;
+  border: none !important;
 }
 
 .dashbord-section {
@@ -114,18 +118,18 @@ body {
 }
 
 .contant {
-  width: 64%;
+  width: 60%;
   padding: 150px 70px;
 }
 
 .contant h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 60px;
 }
 
 .contant p {
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 18px;
 }
 
@@ -141,12 +145,12 @@ body {
 }
 
 .sell-photo-sec {
-  padding: 200px 100px;
+  padding: 200px 100px 110px 100px;
   display: flex;
 }
 
 .sell-photo-contant {
-  width: 40%;
+  width: 41%;
   padding: 0px 20px;
   margin-top: -100px;
 }
@@ -168,8 +172,28 @@ body {
   top: -70px;
   right: 50px;
 }
+.contant-one h1 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 45px;
+}
+.contant-one p {
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
 .contant-two {
   margin-top: 40px;
+}
+.contant-two h1 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 45px;
+}
+.contant-two p {
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 14px;
 }
 
 .work-section {
@@ -183,6 +207,7 @@ body {
 }
 
 .work-contant {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,18 +218,34 @@ body {
   padding: 20px;
 }
 
+.sub-title {
+  position: absolute;
+  right: 70px;
+  bottom: 5px;
+  font-size: 11px;
+  font-weight: 100;
+}
+.sub-title-admin {
+  color: white;
+  text-decoration: none;
+}
+
+.sub-title-admin:hover {
+  color: blue;
+}
+
 .work-section img {
   width: 60px;
   height: 60px;
 }
 
 .work-section h1 {
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 10px;
 }
 
 .work-section p {
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 10px;
 }
 
@@ -216,25 +257,26 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 50px;
+  padding: 50px 115px;
 }
 
 .quote-section i {
   padding-top: 20px;
 }
 .quote-section p {
-  font-size: 35px;
+  font-size: 33px;
   margin-top: 20px;
+  line-height: 40px;
 }
 
 .quote-section span {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 20px;
 }
 
 .photography-section {
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-image: url("../image/banner_image_2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -243,38 +285,56 @@ body {
 }
 
 .photography-contant {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 500px;
-  padding: 20px;
-}
-
-.photography-contant img {
-  width: 60px;
-  height: 60px;
+  height: 600px;
+  padding: 100px;
 }
 
 .photography-contant h1 {
-  font-size: 40px;
+  font-size: 34px;
   margin-top: 20px;
 }
 
 .photography-contant p {
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 10px;
+  text-align: left;
 }
 
 .community-sec {
-  padding: 200px 100px;
+  padding: 150px 100px;
   display: flex;
 }
 
 .community-contant {
   width: 40%;
-  margin-top: -70px;
+  margin-top: -30px;
+}
+
+.community-contant-one h1 {
+  font-size: 34px;
+  line-height: 40px;
+}
+.community-contant-one p {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.partnership-contant-two h1 {
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.partnership-contant-two p {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 20px;
 }
 
 .community-photos {
@@ -342,11 +402,11 @@ body {
 }
 
 .licensing-section h1 {
-  font-size: 40px;
+  font-size: 34px;
 }
 .licensing-section p {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .licensing-section:after {
@@ -370,7 +430,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 100px;
+  padding: 0px 100px 100px 100px;
 }
 
 .card-section a {
@@ -403,8 +463,16 @@ body {
   flex-wrap: wrap;
 }
 
+.card h1 {
+  font-size: 25px;
+}
+
+.card a {
+  font-size: 15px;
+}
+
 .collection-section {
-  min-height: 250px;
+  min-height: 300px;
   height: auto;
   background-color: black;
   color: white;
@@ -413,15 +481,15 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px;
+  padding: 0px 20px;
 }
 
 .collection-section h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 .collection-section p {
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 .collection-btn {
@@ -437,7 +505,7 @@ body {
 
 .footer {
   color: rgba(141, 139, 139, 0.932);
-  padding: 30px;
+  padding: 30px 60px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -451,19 +519,19 @@ body {
 }
 
 .footer h1 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .footer ul li {
   list-style: none;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .footer ul li a {
   list-style: none;
   text-decoration: none;
   color: rgba(141, 139, 139, 0.932);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer ul li a:hover {
@@ -475,7 +543,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  padding-bottom: 30px;
   border-bottom: 2px solid rgba(231, 224, 224, 0.932);
 }
 
@@ -508,8 +575,12 @@ body {
 
 .socian-icon {
   display: flex;
-  margin-top: 20px;
+  margin-top: 16px;
   font-size: 20px;
+}
+.socian-icon i {
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 .socian-icon a {
@@ -517,6 +588,7 @@ body {
   text-decoration: none;
   color: rgba(141, 139, 139, 0.932);
   padding-left: 10px;
+  font-size: 16px;
 }
 
 .dow-img-sec {
@@ -525,27 +597,28 @@ body {
 }
 
 .dow-img-sec img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   margin: 10px;
 }
 
 .copy-right-section {
   display: flex;
   justify-content: space-between;
-  padding: 0px 30px 30px 30px;
+  padding: 0px 50px 30px 50px;
 }
+
 .copy-right {
   display: flex;
 }
 
 .copy-right-section h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 .copy-right img {
   width: 16px;
   height: 16px;
-  margin: 10px;
+  margin: 6px;
 }
 
 .footer-privacy-sec {

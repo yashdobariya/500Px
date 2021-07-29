@@ -398,7 +398,7 @@ body {
   padding: 30px;
   min-height: 200px;
   height: auto;
-  background-color: aqua;
+  background-color: rgb(25, 214, 192);
 }
 
 .licensing-section h1 {
@@ -419,7 +419,7 @@ body {
   margin-left: -25px;
   transform: rotate(45deg);
   margin-top: -25px;
-  background-color: aqua;
+  background-color: rgb(25, 214, 192);
 }
 
 .card-section {
